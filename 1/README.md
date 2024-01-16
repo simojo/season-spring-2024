@@ -1,0 +1,6 @@
+![CMPSC 201: Programming Languages](https://private-user-images.githubusercontent.com/1552764/296600874-61517376-1325-4491-851b-0e48d3b8d834.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDUyNTk3ODcsIm5iZiI6MTcwNTI1OTQ4NywicGF0aCI6Ii8xNTUyNzY0LzI5NjYwMDg3NC02MTUxNzM3Ni0xMzI1LTQ0OTEtODUxYi0wZTQ4ZDNiOGQ4MzQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDExNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMTRUMTkxMTI3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmIzOTEyZDdjODZmYzAxMTg1YjUwYTc1MDU1MzI0ZTE1OTI4ZTI5NjdhMDQ1MThjMjdmZWJjOTAwYmRlOTBhMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.rWdc2fA6TAPDTw7HQwiTrWcdfiaRZfwD362QM1sOpAw)
+
+# ⛳ Code Golf: Hole 1 - Hello, World (Java)
+
+This challenge asks a deceptively difficult task: program the Java "Hello, World!" program _in as few bytes as possible_. This,
+of course, requires a cursory knowledge of a few facts about the Java language -- namely what it does and _does not_ allow.
