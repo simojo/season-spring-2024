@@ -22,15 +22,23 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: 3.10.6
-    - name: Set up grading environment
+    - name: Set up golfing environment
       run: |
         sudo apt-get update
         sudo python -m pip install --upgrade pip
         sudo python -m pip install gatorgrade --ignore-installed PyYAML
-    - name: Evaluate Round 1
+    - name: Score Round 1
+      id: score
       run: |
         cd 1
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
+        echo "$(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')" >> $GITHUB_OUTPUT
+    - name: Golf score badge
+      uses: RubbaBoy/BYOB@v1.3.0
+      with:
+        NAME: score
+        ICON: '🏌️'
+        STATUS: ${{ steps.score.outputs }}
       if: always()
       env:   
         PIPENV_VENV_IN_PROJECT: 1
