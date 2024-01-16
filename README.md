@@ -12,6 +12,7 @@ of course, requires a cursory knowledge of a few facts about the Java language -
 
 * this challenge must be completed using the `Java` language
 * the program must run and output the string `Hello, World!`
+* the program must be written in the `1/src/main/java/com/golf/one/Main.java` file
 
 ## Tips
 
