@@ -22,8 +22,7 @@ Some folks over on the Code Golf forums at StackExchange put together a set of s
 ## Infrastructure
 
 If you're familiar with running Java programs, you can feel free to `javac` to your heart's content. However, this repository
-is set up to build using Apache Maven. Given that several challenges will likely require Java, it might be advantageous for you
-to do so.
+is set up to build using Apache Maven. Several challenges will require Java, it might be advantageous for you to do so.
 
 Given the prevalence of VSCode installs, the league provides the following resources for you should you want to install and use
 Maven in VSCode.
