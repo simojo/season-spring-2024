@@ -1,5 +1,7 @@
 setup: |
-  echo "🏌️    [Score] $(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}') bytes"
+  export PAR=135
+  export BYTE_SCORE=$(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')
+  echo "🏌️    [Score] $(echo BYTE_SCORE)  bytes $((BYTE_SCORE-PAR))"
 ---
 - description: \[Round 1] Executes successfully
   category: Round 1
