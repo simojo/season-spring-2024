@@ -45,7 +45,6 @@ jobs:
       uses: term-world/wizard@v0.6.6
       with:
         grader-report: 'gatorgrade_summary.json'
-      workflow-status: ${{ steps.succeed.outcome }}
       if: always()
     env:
       GITHUB_TOKEN: ${{ secrets.WIZARD }}
