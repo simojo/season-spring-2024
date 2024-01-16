@@ -30,7 +30,6 @@ jobs:
     - name: Score Round 1
       id: score
       run: |
-        cd 1
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
         echo "# Score\n| | |\n|:-|:-|\n|🏌| $(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')|" >> $GITHUB_STEP_SUMMARY
       if: always()
