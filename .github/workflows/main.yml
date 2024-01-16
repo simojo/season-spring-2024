@@ -42,7 +42,7 @@ jobs:
         echo "Setting successful outcome."
     - name: Create Wizard report
       id: wizard
-      uses: term-world/wizard@v0.6.5
+      uses: term-world/wizard@v0.6.6
       with:
         grader-report: 'gatorgrade_summary.json'
       workflow-status: ${{ steps.succeed.outcome }}
