@@ -42,7 +42,7 @@ Entries for the Open-Rank league close on 22 January 2024.
 
 ### Scoring
 
-Scoring takes place using GitHub Actions.
+Scoring takes place using GitHub Actions, and the workflow step "Score Round" prints it. However, it is also available via the workflow's job summary.
 
 ## Season schedule
 
