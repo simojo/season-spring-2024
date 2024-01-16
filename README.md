@@ -22,8 +22,9 @@ Some folks over on the Code Golf forums at StackExchange put together a set of s
 
 ## Infrastructure
 
-If you're familiar with running Java programs, you can feel free to `javac` to your heart's content. However, this repository
-is set up to build using Apache Maven. Several challenges will require Java, it might be advantageous for you to do so.
+If you're familiar with running Java programs, you can feel free to `javac` or use your own framework to your heart's content. 
+However, this repository leverages the build lifecycle using Apache Maven. Several challenges will require Java, it might be advantageous 
+for you to do so.
 
 Given the prevalence of VSCode installs, the league provides the following resources for you should you want to install and use
 Maven in VSCode.
@@ -65,3 +66,14 @@ Your lives are a bit easier. To download and install the necessary Java developm
 #### Debian-based Linux distributions
 
 * Use `apt-get` to install the latest version of Apache Maven: `apt-get install maven`
+
+### Running with Maven
+
+The following lifecycle steps are key to running this project with Maven:
+
+|Lifecycle step |Purpose |
+|:--------------|:-------|
+|`clean`        |Removes all compiled targets |
+|`compile`      |Rebuilds compiled targets |
+|`test`         |Runs the test that the evaluator runs |
+
