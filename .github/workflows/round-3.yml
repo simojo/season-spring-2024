@@ -1,8 +1,8 @@
-name: Round 1
+name: Round 3
 
 on:
   push:
-    branches: [round-1]
+    branches: [round-3]
 
 jobs: 
   grade:
