@@ -35,11 +35,3 @@ jobs:
       env:   
         PIPENV_VENV_IN_PROJECT: 1
         PIPENV_IGNORE_VIRTUALENVS: 1
-    - name: Create Wizard report
-      id: wizard
-      uses: term-world/wizard@v0.6.8
-      with:
-        grader-report: 'gatorgrade_summary.json'
-      if: always()
-    env:
-      GITHUB_TOKEN: ${{ secrets.WIZARD }}
