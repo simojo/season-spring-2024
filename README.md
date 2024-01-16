@@ -45,7 +45,7 @@ Entries for the Open-Rank league close on 22 January 2024.
 This season takes place over the course of 15 weeks:
 
 |Round issued |Round  Started |Round completed |Status |
-|:----------------|:--------------|:---------------|
+|:----------------|:--------------|:---------------|:--|
 |`1`                |19 January     |22 January      |[![Round 1](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-1) |
 |`2`                |26 January     |29 January      |[![Round 2](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-2) |
 |`3`                |2 February     |5 February      |[![Round 3](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-3) |
