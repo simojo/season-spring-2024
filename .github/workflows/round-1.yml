@@ -31,7 +31,12 @@ jobs:
       id: score
       run: |
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
-        echo "# Score\n| | |\n|:-|:-|\n|🏌| $(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')|" >> $GITHUB_STEP_SUMMARY
+        cat << EOF 
+        # Score
+        |  |  |
+        |:-|:-|
+        |🏌 | $(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}') |
+        EOF >> $GITHUB_STEP_SUMMARY
       if: always()
       env:   
         PIPENV_VENV_IN_PROJECT: 1
