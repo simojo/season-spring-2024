@@ -1,4 +1,4 @@
-name: GatorGrader
+name: Round 1
 
 on:
   push:
@@ -22,23 +22,18 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: 3.10.6
-    - name: Set up grading environment
+    - name: Set up golfing environment
       run: |
         sudo apt-get update
         sudo python -m pip install --upgrade pip
         sudo python -m pip install gatorgrade --ignore-installed PyYAML
-    - name: Grade repository
+    - name: Score Round 1
+      id: score
       run: |
+        cd 1
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
+        echo "# Score\n| | |\n|:-|:-|\n|🏌| $(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')|" >> $GITHUB_STEP_SUMMARY
       if: always()
       env:   
         PIPENV_VENV_IN_PROJECT: 1
         PIPENV_IGNORE_VIRTUALENVS: 1
-    - name: Set wizard success
-      id: succeed
-      if: success()
-      shell: bash
-      run: |
-        echo "Setting successful outcome."
-    env:
-      GITHUB_TOKEN: ${{ secrets.WIZARD }}
