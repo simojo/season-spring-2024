@@ -33,7 +33,7 @@ jobs:
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
         cat > $GITHUB_STEP_SUMMARY << EOF 
         # Score
-        `🏌 ` `$(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')`
+        🏌  $(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')
         EOF
       if: always()
       env:   
