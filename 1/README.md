@@ -1,9 +1,24 @@
-![CMPSC 201: Programming Languages](https://private-user-images.githubusercontent.com/1552764/296600874-61517376-1325-4491-851b-0e48d3b8d834.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDUzNzkwMjgsIm5iZiI6MTcwNTM3ODcyOCwicGF0aCI6Ii8xNTUyNzY0LzI5NjYwMDg3NC02MTUxNzM3Ni0xMzI1LTQ0OTEtODUxYi0wZTQ4ZDNiOGQ4MzQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDExNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMTZUMDQxODQ4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjcyMTRmYzQ3MDQ4Zjc5ZjY3OWM2YmY3NzkyMDk4N2NkYTM5NTYzMGE1NmI4YWM2MDNhMGY2NzU4YzJiODE4NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.qLrd89bQsEDhRRn_EaOd5Yvx9ZhDsz0Mni9T8pivSUw)
+![Green square on deep blue background with words "Allegheny Code Golf Association" in foreground, white](https://github.com/allegheny-college-cmpsc-201-spring-2024/golf/assets/1552764/d3ee6a91-74c9-482b-84eb-ec9a2e8dee05)
 
 # ⛳ Code Golf: Hole 1 - Hello, World (Java)
 
 This challenge asks a deceptively difficult task: program the Java "Hello, World!" program _in as few bytes as possible_. This,
 of course, requires a cursory knowledge of a few facts about the Java language -- namely what it does and _does not_ allow.
+
+## Requirements
+
+* this challenge must be completed using the `Java` language
+
+## Infrastructure
+
+If you're familiar with running Java programs, you can feel free to `javac` to your heart's content. However, this repository
+is set up to build using Apache Maven. Given that several challenges will likely require Java, it might be advantageous for you
+to do so.
+
+Given the prevalence of VSCode installs, the league provides the following resources for you should you want to install and use
+Maven in VSCode:
+
+
 
 ## Tips
 
