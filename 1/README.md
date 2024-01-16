@@ -10,6 +10,13 @@ of course, requires a cursory knowledge of a few facts about the Java language -
 ## Requirements
 
 * this challenge must be completed using the `Java` language
+* the program must run and output the string `Hello, World!`
+
+## Tips
+
+Some folks over on the Code Golf forums at StackExchange put together a set of strategies that you may use to inform your golfing:
+
+* [Tips for Golfing in Java](https://codegolf.stackexchange.com/questions/6671/tips-for-golfing-in-java)
 
 ## Infrastructure
 
@@ -18,12 +25,42 @@ is set up to build using Apache Maven. Given that several challenges will likely
 to do so.
 
 Given the prevalence of VSCode installs, the league provides the following resources for you should you want to install and use
-Maven in VSCode:
+Maven in VSCode.
 
+### Installing Java resources 
 
+This toolchain uses:
 
-## Tips
+* Java JDK/JRE
+* Apache Maven
+* Microsoft VSCode
 
-Some folks over on the Code Golf forums at StackExchange put together a set of strategies that you may use to inform your golfing:
+Along with downloading and installing each component piecemeal, VSCode's Marketplace features plugins that accommodate both the Java runtime and Maven integration. After installing VSCode, if not already installed:
 
-* [Tips for Golfing in Java](https://codegolf.stackexchange.com/questions/6671/tips-for-golfing-in-java)
+* Download the appropriate Java resources from the [VSCode "Java in Visual Studio Code" guide](https://code.visualstudio.com/docs/languages/java), namely:
+  * The [Microsoft Build of OpenJDK](https://www.microsoft.com/openjdk)
+* The [VSCode Extension Pack for Java](https://code.visualstudio.com/docs/java/java-build) which features the Maven build platform
+* Install Apache Maven according to relevant OS instructions below
+
+#### Note for Linux distribution users
+
+Your lives are a bit easier. To download and install the necessary Java development kit and runtime, use the following commands (if using a Debian-derived distribution such as Ubuntu):
+
+* `apt-get install default-jdk`
+* `apt-get install default-jre`
+
+### Installing Apache Maven
+
+#### Windows
+
+* Download the [latest `zip` archive of Apache Maven](https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip)
+* Create a folder in your `C:` drive partition at `C:\maven`
+* Extract the contents of the `zip` file to the `C:\maven` directory
+
+#### Mac OSX
+
+* Use `brew` to install the latest version of Apache Maven: `brew install maven`
+
+#### Debian-based Linux distributions
+
+* Use `apt-get` to install the latest version of Apache Maven: `apt-get install maven`
