@@ -40,6 +40,10 @@ in participating in this very serious endeavor. To enroll in the Open-rank Leade
 
 Entries for the Open-Rank league close on 22 January 2024.
 
+### Scoring
+
+Scoring takes place using GitHub Actions.
+
 ## Season schedule
 
 This season takes place over the course of 15 weeks:
