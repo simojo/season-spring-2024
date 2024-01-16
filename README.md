@@ -21,8 +21,8 @@ The more specific rules are simple:
 
 ### Participation
 
-Only golfers who use their assignment golf repository will be scored and ranked. See the above registration form to register and receieve
-a link to an official copy of the repository, which:
+Only golfers who use their own fork of the golf repository will be scored and ranked. See the above registration form to register and receieve
+a link to a forkable link of the repository, which:
 
 * will be a fork of the main season repository
 * will require you to update the repository on a weekly basis, when new rounds are released
