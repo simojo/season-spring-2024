@@ -19,6 +19,16 @@ The more specific rules are simple:
 * if your submission is more than `1000` bytes, your score will be counted as a "bogey" and increment by only `1000` bytes
 * if enrolling, but failing to submit a round, your score will automatically increment by one "bogey" for that round
 
+### Participation
+
+Only golfers who use their assignment golf repository will be scored and ranked. See the above registration form to register and receieve
+a link to an official copy of the repository, which:
+
+* will be a fork of the main season repository
+* will require you to update the repository on a weekly basis, when new rounds are released
+
+Participants who fill out the registration form will be emailed when a new round is released.
+
 ## Leaderboards
 
 There are two leaderboards: an _internal_ one for the aforementioned `CMPSC 201` course and an open-rank leader board for all others interested
