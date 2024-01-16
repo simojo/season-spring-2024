@@ -24,7 +24,9 @@ The more specific rules are simple:
 There are two leaderboards: an _internal_ one for the aforementioned `CMPSC 201` course and an open-rank leader board for all others interested
 in participating in this very serious endeavor. To enroll in the Open-rank Leaderboard, please fill out this entry form:
 
-* 
+* [Spring 2024 Season Open-Rank Entry Form](https://chompe.rs/acga-spring-2024-registration)
+
+Entries for the Open-Rank league close on 22 January 2024.
 
 ## Season schedule
 
