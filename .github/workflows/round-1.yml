@@ -34,7 +34,7 @@ jobs:
         export BYTE_SCORE=$(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')
         cat > $GITHUB_STEP_SUMMARY << EOF 
         # Score
-        ![Score: $(echo BYTE_SCORE) bytes](https://img.shields.io/badge/Score-$(echo BYTE_SCORE)_bytes-green)
+        ![Score: $(echo $BYTE_SCORE) bytes](https://img.shields.io/badge/Score-$(echo $BYTE_SCORE)_bytes-green)
         EOF
       if: always()
       env:   
