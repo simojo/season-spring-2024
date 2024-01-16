@@ -26,6 +26,8 @@ a link to an official copy of the repository, which:
 
 * will be a fork of the main season repository
 * will require you to update the repository on a weekly basis, when new rounds are released
+* each round will be released in a numbered folder representing the round
+  * i.e., `1` represents Round 1
 
 Participants who fill out the registration form will be emailed when a new round is released.
 
@@ -42,7 +44,7 @@ Entries for the Open-Rank league close on 22 January 2024.
 
 This season takes place over the course of 15 weeks:
 
-|Challenge issued |Round  Started |Round completed |
+|Round issued |Round  Started |Round completed |
 |:----------------|:--------------|:---------------|
 |1                |19 January     |22 January      |
 |2                |26 January     |29 January      |
