@@ -1,3 +1,0 @@
-- description: \[Round 1] Executes successfully
-  category: Round 1
-  command: mvn clean install compile test -U -f '1/pom.xml'

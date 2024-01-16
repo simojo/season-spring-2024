@@ -44,20 +44,20 @@ Entries for the Open-Rank league close on 22 January 2024.
 
 This season takes place over the course of 15 weeks:
 
-|Round issued |Round  Started |Round completed |
+|Round issued |Round  Started |Round completed |Status |
 |:----------------|:--------------|:---------------|
-|`1`                |19 January     |22 January      |
-|`2`                |26 January     |29 January      |
-|`3`                |2 February     |5 February      |
-|`4`                |9 February     |12 February     |
-|`5`                |16 February    |19 February     |
-|`6`                |23 February    |26 February     |
-|`7`-`8`              |1 March        |15 March        |
-|`9`                |15 March       |18 March        |
-|`10`               |22 March       |25 March        |
-|`11`               |29 March       |1 April, fools  |
-|`12`               |5 April        |8 April         |
-|`13`               |12 April       |15 April        |
-|`14`               |19 April       |22 April        |
-|`15`               |26 April       |29 April        |
-|`16`-`18`            |29 April       |6 May           |
+|`1`                |19 January     |22 January      |[![Round 1](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-1) |
+|`2`                |26 January     |29 January      |[![Round 2](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-2) |
+|`3`                |2 February     |5 February      |[![Round 3](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-3) |
+|`4`                |9 February     |12 February     |[![Round 4](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-4) |
+|`5`                |16 February    |19 February     |[![Round 5](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-5) |
+|`6`                |23 February    |26 February     |[![Round 6](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-6) |
+|`7`-`8`              |1 March        |15 March        |[![Round 7](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-7) [![Round 8](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-8) ||
+|`9`                |15 March       |18 March        |[![Round 9](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-9) |
+|`10`               |22 March       |25 March        |[![Round 10](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-10) |
+|`11`               |29 March       |1 April, fools  |[![Round 11](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-11) |
+|`12`               |5 April        |8 April         |[![Round 12](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-12) |
+|`13`               |12 April       |15 April        |[![Round 13](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-13) |
+|`14`               |19 April       |22 April        |[![Round 14](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-14) |
+|`15`               |26 April       |29 April        |[![Round 15](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-15) |
+|`16`-`18`            |29 April       |6 May           |[![Round 16](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-16) [![Round 17](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-17) [![Round 18](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml?branch=round-18) |
