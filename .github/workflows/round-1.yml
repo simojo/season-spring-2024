@@ -31,9 +31,10 @@ jobs:
       id: score
       run: |
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
+        export BYTE_SCORE=$(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')
         cat > $GITHUB_STEP_SUMMARY << EOF 
         # Score
-        🏌  $(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')
+        ![Score: $(echo BYTE_SCORE) bytes](https://img.shields.io/badge/Score-$(echo BYTE_SCORE)_bytes-green)
         EOF
       if: always()
       env:   
