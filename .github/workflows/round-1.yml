@@ -32,7 +32,6 @@ jobs:
       run: |
         cd 1
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
-        echo "$(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')" >> $GITHUB_OUTPUT
       if: always()
       env:   
         PIPENV_VENV_IN_PROJECT: 1
