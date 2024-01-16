@@ -2,9 +2,29 @@
 
 # CMPSC 201: Programming Languages Code Golf
 
-This repository houses the Spring 2024 season of the Allegheny Code Golf Association. If enrolled in the Spring 2024 CMPSC 201 course at Allegheny
+This repository houses the Spring 2024 season of the Allegheny Code Golf Association. If enrolled in the Spring 2024 `CMPSC 201` course at Allegheny
 College, refer to the [course syllabus](https://github.com/allegheny-college-cmpsc-201-spring-2024/course-materials/blob/main/README.md) for more 
-information about evaluation and completion.  
+information about evaluation and completion.
+
+## Rules
+
+The golfer with the lowest score wins.
+
+The more specific rules are simple: 
+
+* achieve the task required by the round's `README` in _as few bytes as possible_
+* the number of bytes taken by your solution will be added to your score
+* unless required to use a specific language, you are welcome, invited, and encouraged to read widely on languages that best fit the problem
+* only submissions completed by the round completion date will count toward global statstics
+* if your submission is more than `1000` bytes, your score will be counted as a "bogey" and increment by only `1000` bytes
+* if enrolling, but failing to submit a round, your score will automatically increment by one "bogey" for that round
+
+## Leaderboards
+
+There are two leaderboards: an _internal_ one for the aforementioned `CMPSC 201` course and an open-rank leader board for all others interested
+in participating in this very serious endeavor. To enroll in the Open-rank Leaderboard, please fill out this entry form:
+
+* 
 
 ## Season schedule
 
