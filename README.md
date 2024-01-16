@@ -1,63 +1,66 @@
 ![Green square on deep blue background with words "Allegheny Code Golf Association" in foreground, white](https://github.com/allegheny-college-cmpsc-201-spring-2024/golf/assets/1552764/d3ee6a91-74c9-482b-84eb-ec9a2e8dee05)
 
-# CMPSC 201: Programming Languages Code Golf
+[![Language: Java](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.python.org/)
 
-This repository houses the Spring 2024 season of the Allegheny Code Golf Association. If enrolled in the Spring 2024 `CMPSC 201` course at Allegheny
-College, refer to the [course syllabus](https://github.com/allegheny-college-cmpsc-201-spring-2024/course-materials/blob/main/README.md) for more 
-information about evaluation and completion.
+# ⛳ Code Golf: Hole 1 - Hello, World (Java)
 
-## Rules
+This challenge asks a deceptively difficult task: program the Java "Hello, World!" program _in as few bytes as possible_. This,
+of course, requires a cursory knowledge of a few facts about the Java language -- namely what it does and _does not_ allow.
 
-The golfer with the lowest score wins.
+## Requirements
 
-The more specific rules are simple: 
+* this challenge must be completed using the `Java` language
+* the program must run and output the string `Hello, World!`
 
-* achieve the task required by the round's `README` in _as few bytes as possible_
-* the number of bytes taken by your solution will be added to your score
-* unless required to use a specific language, you are welcome, invited, and encouraged to read widely on languages that best fit the problem
-* only submissions completed by the round completion date will count toward global statstics
-* if your submission is more than `1000` bytes, your score will be counted as a "bogey" and increment by only `1000` bytes
-* if enrolling, but failing to submit a round, your score will automatically increment by one "bogey" for that round
+## Tips
 
-### Participation
+Some folks over on the Code Golf forums at StackExchange put together a set of strategies that you may use to inform your golfing:
 
-Only golfers who use their assignment golf repository will be scored and ranked. See the above registration form to register and receieve
-a link to an official copy of the repository, which:
+* [Tips for Golfing in Java](https://codegolf.stackexchange.com/questions/6671/tips-for-golfing-in-java)
 
-* will be a fork of the main season repository
-* will require you to update the repository on a weekly basis, when new rounds are released
-* each round will be released in a numbered folder representing the round
-  * i.e., `1` represents Round 1
+## Infrastructure
 
-Participants who fill out the registration form will be emailed when a new round is released.
+If you're familiar with running Java programs, you can feel free to `javac` to your heart's content. However, this repository
+is set up to build using Apache Maven. Given that several challenges will likely require Java, it might be advantageous for you
+to do so.
 
-## Leaderboards
+Given the prevalence of VSCode installs, the league provides the following resources for you should you want to install and use
+Maven in VSCode.
 
-There are two leaderboards: an _internal_ one for the aforementioned `CMPSC 201` course and an open-rank leader board for all others interested
-in participating in this very serious endeavor. To enroll in the Open-rank Leaderboard, please fill out this entry form:
+### Installing Java resources 
 
-* [Spring 2024 Season Open-Rank Entry Form](https://chompe.rs/acga-spring-2024-registration)
+This toolchain uses:
 
-Entries for the Open-Rank league close on 22 January 2024.
+* Java JDK/JRE
+* Apache Maven
+* Microsoft VSCode
 
-## Season schedule
+Along with downloading and installing each component piecemeal, VSCode's Marketplace features plugins that accommodate both the Java runtime and Maven integration. After installing VSCode, if not already installed:
 
-This season takes place over the course of 15 weeks:
+* Download the appropriate Java resources from the [VSCode "Java in Visual Studio Code" guide](https://code.visualstudio.com/docs/languages/java), namely:
+  * The [Microsoft Build of OpenJDK](https://www.microsoft.com/openjdk)
+* The [VSCode Extension Pack for Java](https://code.visualstudio.com/docs/java/java-build) which features the Maven build platform
+* Install Apache Maven according to relevant OS instructions below
 
-|Round issued |Round  Started |Round completed |
-|:----------------|:--------------|:---------------|
-|`1`                |19 January     |22 January      |
-|`2`                |26 January     |29 January      |
-|`3`                |2 February     |5 February      |
-|`4`                |9 February     |12 February     |
-|`5`                |16 February    |19 February     |
-|`6`                |23 February    |26 February     |
-|`7`-`8`              |1 March        |15 March        |
-|`9`                |15 March       |18 March        |
-|`10`               |22 March       |25 March        |
-|`11`               |29 March       |1 April, fools  |
-|`12`               |5 April        |8 April         |
-|`13`               |12 April       |15 April        |
-|`14`               |19 April       |22 April        |
-|`15`               |26 April       |29 April        |
-|`16`-`18`            |29 April       |6 May           |
+#### Note for Linux distribution users
+
+Your lives are a bit easier. To download and install the necessary Java development kit and runtime, use the following commands (if using a Debian-derived distribution such as Ubuntu):
+
+* `apt-get install default-jdk`
+* `apt-get install default-jre`
+
+### Installing Apache Maven
+
+#### Windows
+
+* Download the [latest `zip` archive of Apache Maven](https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip)
+* Create a folder in your `C:` drive partition at `C:\maven`
+* Extract the contents of the `zip` file to the `C:\maven` directory
+
+#### Mac OSX
+
+* Use `brew` to install the latest version of Apache Maven: `brew install maven`
+
+#### Debian-based Linux distributions
+
+* Use `apt-get` to install the latest version of Apache Maven: `apt-get install maven`
