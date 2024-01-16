@@ -1,6 +1,6 @@
 ![Green square on deep blue background with words "Allegheny Code Golf Association" in foreground, white](https://github.com/allegheny-college-cmpsc-201-spring-2024/golf/assets/1552764/d3ee6a91-74c9-482b-84eb-ec9a2e8dee05)
 
-# CMPSC 201: Programming Languages Code Golf
+# Allegheny Code Golf Association Spring 2024 Season
 
 This repository houses the Spring 2024 season of the Allegheny Code Golf Association. If enrolled in the Spring 2024 `CMPSC 201` course at Allegheny
 College, refer to the [course syllabus](https://github.com/allegheny-college-cmpsc-201-spring-2024/course-materials/blob/main/README.md) for more 
