@@ -18,6 +18,7 @@ The more specific rules are simple:
 * only submissions completed by the round completion date will count toward global statstics
 * if your submission is more than `1000` bytes, your score will be counted as a "bogey" and increment by only `1000` bytes
 * if enrolling, but failing to submit a round, your score will automatically increment by one "bogey" for that round
+* programs submitted must pass the GitHub Actions build to count, otherwise they are scored as a "bogey"
 
 ### Participation
 
