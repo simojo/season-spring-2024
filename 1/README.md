@@ -4,3 +4,9 @@
 
 This challenge asks a deceptively difficult task: program the Java "Hello, World!" program _in as few bytes as possible_. This,
 of course, requires a cursory knowledge of a few facts about the Java language -- namely what it does and _does not_ allow.
+
+## Tips
+
+Some folks over on the Code Golf forums at StackExchange put together a set of strategies that you may use to inform your golfing:
+
+* [Tips for Golfing in Java](https://codegolf.stackexchange.com/questions/6671/tips-for-golfing-in-java)
