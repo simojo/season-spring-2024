@@ -30,10 +30,13 @@ jobs:
     - name: Score Round 1
       id: score
       run: |
+        export PAR=135
+        export BYTE_SCORE=$(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')
+        export DIFFERENCE=$((BYTE_SCORE-PAR))
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
         cat > $GITHUB_STEP_SUMMARY << EOF 
         # Score
-        ![Score: $(echo $BYTE_SCORE) bytes](https://img.shields.io/badge/Score-$(echo $BYTE_SCORE)_bytes_($((BYTE_SCORE-PAR)))-green)
+        ![Score: $(echo $BYTE_SCORE) bytes](https://img.shields.io/badge/Score-$(echo $BYTE_SCORE)_bytes_($DIFFERENCE)-green)
         EOF
       if: always()
       env:   
