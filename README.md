@@ -50,7 +50,7 @@ This season takes place over the course of 15 weeks:
 
 |Round issued |Round  Started |Round completed |Status |
 |:----------------|:--------------|:---------------|:--|
-|[`1`](tree/round-1)                |19 January     |22 January      |[![Round 1](../../actions/workflows/round-1.yml/badge.svg?branch=round-1)](../../actions/workflows/round-1.yml) |
+|[`1`](../../tree/round-1)                |19 January     |22 January      |[![Round 1](../../actions/workflows/round-1.yml/badge.svg?branch=round-1)](../../actions/workflows/round-1.yml) |
 |`2`                |26 January     |29 January      |[![Round 2](../../actions/workflows/round-2.yml/badge.svg?branch=round-2)](../../actions/workflows/round-2.yml) |
 |`3`                |2 February     |5 February      |[![Round 3](../../actions/workflows/round-3.yml/badge.svg?branch=round-3)](../../actions/workflows/round-3.yml) |
 |`4`                |9 February     |12 February     |[![Round 4](../../actions/workflows/round-4.yml/badge.svg?branch=round-4)](../../actions/workflows/round-4.yml) |
