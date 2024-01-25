@@ -67,7 +67,6 @@
                </dependency>
           </dependencies>
           <configuration>
-            <workingDirectory>${session.executionRootDirectory}/src</workingDirectory>
             <additionalClasspathElements>
     					<additionalClasspathElement>${session.executionRootDirectory}/src/test/java/com/golf/two/*Tests.java</additionalClasspathElement>
             </additionalClasspathElements>
