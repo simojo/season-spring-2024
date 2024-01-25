@@ -3,4 +3,4 @@ setup: |
 ---
 - description: \[Round 2] Executes successfully
   category: Round 2
-  command: mvn clean install compile test -U -f '2/pom.xml'
+  command: mvn clean compile test -U -f '2/pom.xml'
