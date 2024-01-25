@@ -32,7 +32,7 @@ jobs:
       id: score
       run: |
         export PAR=218
-        export BYTE_SCORE=$(wc -c 1/src/test/resources/main.lox | awk '{print $1}')
+        export BYTE_SCORE=$(wc -c 2/src/test/resources/main.lox | awk '{print $1}')
         export DIFFERENCE=$((BYTE_SCORE-PAR))
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
         cat > $GITHUB_STEP_SUMMARY << EOF 
