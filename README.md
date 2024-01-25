@@ -14,10 +14,11 @@ The more specific rules are simple:
 
 * achieve the task required by the round's `README` in _as few bytes as possible_
 * the number of bytes taken by your solution will be added to your score
-* unless required to use a specific language, you are welcome, invited, and encouraged to read widely on languages that best fit the problem
+* challenges will feature a required language; challenges must be completed using this language
 * only submissions completed by the round completion date will count toward global statstics
 * if your submission is more than `1000` bytes, your score will be counted as a "bogey" and increment by only `1000` bytes
 * if enrolling, but failing to submit a round, your score will automatically increment by one "bogey" for that round
+* programs submitted must pass the GitHub Actions build to count, otherwise they are scored as a "bogey"
 
 ### Participation
 
