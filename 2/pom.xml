@@ -2,17 +2,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
  
-  <groupId>com.golf.one</groupId>
-  <artifactId>one</artifactId>
-  <version>0.1.0</version>
+  <groupId>com.interpreter.lox</groupId>
+  <artifactId>two</artifactId>
+  <version>0.2.0</version>
  
-  <name>HoleOne</name>
+  <name>HoleTwo</name>
   <url>https://github.com/allegheny-college-cmpsc-201-spring-2024</url>
  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
  
   <dependencyManagement>
@@ -39,20 +37,25 @@
       <version>5.10.0</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
-  
+  </dependencies>  
   <build>
-    <pluginManagement>
-    <plugins>
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>exec-maven-plugin</artifactId>
-            <version>1.2.1</version>
-            <configuration>
-                <mainClass>com.golf.one.Main</mainClass>
-            </configuration>
-        </plugin>
-        <plugin>
+  <plugins>
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>exec-maven-plugin</artifactId>
+      <version>1.4.0</version>
+      <configuration>
+          <executable>java</executable>
+          <mainClass>com.interpreter.lox.Main</mainClass>
+          <arguments>
+            <argument>${session.executionRootDirectory}/src/test/resources/main.lox</argument>
+          </arguments>
+          <additionalClasspathElements>
+            <additionalClasspathElement>${session.executionRootDirectory}/src/target/classes</additionalClasspathElement>
+          </additionalClasspathElements>
+      </configuration>
+      </plugin>
+              <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.2</version>
@@ -64,12 +67,12 @@
                </dependency>
           </dependencies>
           <configuration>
+            <workingDirectory>${session.executionRootDirectory}/src</workingDirectory>
             <additionalClasspathElements>
-    					<additionalClasspathElement>src/test/com/golf/one/*Tests.java</additionalClasspathElement>
+    					<additionalClasspathElement>${session.executionRootDirectory}/src/test/java/com/golf/two/*Tests.java</additionalClasspathElement>
             </additionalClasspathElements>
     			</configuration>
         </plugin>
-    </plugins>
-    </pluginManagement>
+  </plugins>
   </build>
 </project>

@@ -1,24 +1,53 @@
 ![Green square on deep blue background with words "Allegheny Code Golf Association" in foreground, white](https://github.com/allegheny-college-cmpsc-201-spring-2024/golf/assets/1552764/d3ee6a91-74c9-482b-84eb-ec9a2e8dee05)
 
-[![Language: Java](https://img.shields.io/badge/Language-Java-blue.svg)](https://www.java.com/en/)
-![Par: 135 bytes](https://img.shields.io/badge/Par-135_bytes-green)
+[![Language: Java](https://img.shields.io/badge/Language-Lox-red.svg)](https://www.craftinginterpreters.com/the-lox-language.html)
+![Par: 135 bytes](https://img.shields.io/badge/Par-218_bytes-green)
 
-# ⛳ Code Golf: Hole 1 - Hello, World (Java)
+# ⛳ Code Golf: Hole 2 - Gone Fishin' (Lox)
 
-This challenge asks a deceptively difficult task: program the Java "Hello, World!" program _in as few bytes as possible_. This,
-of course, requires a cursory knowledge of a few facts about the Java language -- namely what it does and _does not_ allow.
+Something's fishy about this week's challenge...namely that your program must draw the following fish:
+```
+lox
+loxlox
+loxloxlox
+loxloxloxlox
+loxloxloxloxlox
+loxloxloxloxloxlox
+loxloxloxloxlox
+loxloxloxlox
+loxloxlox
+loxlox
+lox
+```
+As if that wasn't enough, you are required to complete this challenge in the `Lox` language, an interpreted language
+developed by Robert Nystrom in his book [_Crafting Interpreters_](https://www.craftinginterpreters.com/). For those
+not up on their breakfast-adjacent programming languages, the author provides a language overview at the link below:
+
+* [_Crafting Interpreters_, Ch. 3: The Lox Language](https://www.craftinginterpreters.com/the-lox-language.html)
+
+This repository uses the Apache Maven build platform to compile the entire interpreter (provided in the `2/src` folder).
+The challenge must be completed in the `Lox` file located at:
+
+* [2/src/test/resources/main.lox](2/src/test/resources/main.lox)
 
 ## Requirements
 
-* this challenge must be completed using the `Java` language
-* the program must run and output the string `Hello, World!`
-* the program must be written in the `1/src/main/java/com/golf/one/Main.java` file
-
-## Tips
-
-Some folks over on the Code Golf forums at StackExchange put together a set of strategies that you may use to inform your golfing:
-
-* [Tips for Golfing in Java](https://codegolf.stackexchange.com/questions/6671/tips-for-golfing-in-java)
+* this challenge must be completed using the `Lox` language
+* the program must run and output the following ASCII art fish:
+```
+lox
+loxlox
+loxloxlox
+loxloxloxlox
+loxloxloxloxlox
+loxloxloxloxloxlox
+loxloxloxloxlox
+loxloxloxlox
+loxloxlox
+loxlox
+lox
+```
+* the program must be written in the `2/src/test/resources/main.lox` file
 
 ## Infrastructure
 
@@ -76,4 +105,3 @@ The following lifecycle steps are key to running this project with Maven:
 |`clean`        |Removes all compiled targets |
 |`compile`      |Rebuilds compiled targets |
 |`test`         |Runs the test that the evaluator runs |
-

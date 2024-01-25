@@ -1,4 +1,4 @@
-package com.golf.one;
+package com.interpreter.lox;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -35,8 +35,11 @@ class BaseTests {
   }
 
   static Stream<Arguments> testProgramOutput() throws Exception {
+    URL resource = BaseTests.class.getClassLoader().getResource("main.lox");
+    File file = Paths.get(resource.toURI()).toFile();
+    String absPath = file.getAbsolutePath();
     return Stream.of(
-      Arguments.of((Object) new String[]{})
+      Arguments.of((Object) new String[]{absPath})
     );
   }
 
@@ -45,7 +48,17 @@ class BaseTests {
   void testProgramOutput(String[] args) throws Exception {
     Main.main(args);
     assertEquals(
-      "Hello, World!",
+      "lox\n"+
+      "loxlox\n"+
+      "loxloxlox\n"+
+      "loxloxloxlox\n"+
+      "loxloxloxloxlox\n"+
+      "loxloxloxloxloxlox\n"+
+      "loxloxloxloxlox\n"+
+      "loxloxloxlox\n"+
+      "loxloxlox\n"+
+      "loxlox\n"+
+      "lox",
       outContent.toString().strip()
     );
   }
