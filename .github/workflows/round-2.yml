@@ -27,11 +27,12 @@ jobs:
         sudo apt-get update
         sudo python -m pip install --upgrade pip
         sudo python -m pip install gatorgrade --ignore-installed PyYAML
-    - name: Score Round 1
+      if: always()
+    - name: Score Round 2
       id: score
       run: |
-        export PAR=135
-        export BYTE_SCORE=$(wc -c 1/src/main/java/com/golf/one/Main.java | awk '{print $1}')
+        export PAR=218
+        export BYTE_SCORE=$(wc -c 1/src/test/resources/main.lox | awk '{print $1}')
         export DIFFERENCE=$((BYTE_SCORE-PAR))
         gatorgrade --config gatorgrade.yml --report file json gatorgrade_summary.json
         cat > $GITHUB_STEP_SUMMARY << EOF 
