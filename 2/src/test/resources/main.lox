@@ -1,11 +1,1 @@
-print "lox";
-print "loxlox";
-print "loxloxlox";
-print "loxloxloxlox";
-print "loxloxloxloxlox";
-print "loxloxloxloxloxlox";
-print "loxloxloxloxlox";
-print "loxloxloxlox";
-print "loxloxlox";
-print "loxlox";
-print "lox";
+for(var i=0;i<11;i=i+1){if(i<7){f(i);}else{f(12-i);}}fun f(i){for(var j=0;j<i;j=j+1){print "lox";}}
