@@ -103,5 +103,5 @@ The following lifecycle steps are key to running this project with Maven:
 |Lifecycle step |Purpose |
 |:--------------|:-------|
 |`clean`        |Removes all compiled targets |
-|`compile`      |Rebuilds compiled targets |
-|`test`         |Runs the test that the evaluator runs |
+|`compile`      |Rebuilds compiled targets|
+|`test`         |Runs the test that the evaluator runs|
