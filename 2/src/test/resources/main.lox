@@ -1,1 +1,1 @@
-for(var i=0;i<11;i=i+1){if(i<7){f(i);}else{f(12-i);}}fun f(i){for(var j=0;j<i;j=j+1){print "lox";}}
+fun f(i){var s="";for(var j=0;j<i;j=j+1)s=s+"lox";print s;}for(var i=1;i<12;i=i+1)if(i<7)f(i);else f(12-i);
