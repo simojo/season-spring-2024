@@ -8,7 +8,7 @@ jobs:
   Score:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with: 
         fetch-depth: '0'
     - name: Setup Maven
@@ -19,7 +19,7 @@ jobs:
         sudo apt-get install maven
     - name: Setup Python
       if: always()
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v4
       with:
         python-version: 3.10.6
     - name: Set up golfing environment
