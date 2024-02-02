@@ -1,53 +1,37 @@
 ![Green square on deep blue background with words "Allegheny Code Golf Association" in foreground, white](https://github.com/allegheny-college-cmpsc-201-spring-2024/golf/assets/1552764/d3ee6a91-74c9-482b-84eb-ec9a2e8dee05)
 
-[![Language: Java](https://img.shields.io/badge/Language-Lox-red.svg)](https://www.craftinginterpreters.com/the-lox-language.html)
-![Par: 135 bytes](https://img.shields.io/badge/Par-218_bytes-green)
+[![Language: Scheme](https://img.shields.io/badge/Language-Scheme-brown.svg)](https://scheme.com/tspl4/start.html#./start:h0)
+![Par: 408 bytes](https://img.shields.io/badge/Par-218_bytes-green)
 
-# ⛳ Code Golf: Hole 2 - Gone Fishin' (Lox)
+# ⛳ Code Golf: Hole 3 - A Scheme Afoot
 
-Something's fishy about this week's challenge...namely that your program must draw the following fish:
+Something's fishy about this week's challenge...namely that your program must create the following string:
 ```
-lox
-loxlox
-loxloxlox
-loxloxloxlox
-loxloxloxloxlox
-loxloxloxloxloxlox
-loxloxloxloxlox
-loxloxloxlox
-loxloxlox
-loxlox
-lox
+ABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZ
 ```
-As if that wasn't enough, you are required to complete this challenge in the `Lox` language, an interpreted language
-developed by Robert Nystrom in his book [_Crafting Interpreters_](https://www.craftinginterpreters.com/). For those
-not up on their breakfast-adjacent programming languages, the author provides a language overview at the link below:
+As if that wasn't enough, you are required to complete this challenge in the `Scheme` language, a dialect of the _very_
+historically-significant `Lisp` language. If you're not a certified old head, you might want to have a look at the..._scheme_
+behind this all:
 
-* [_Crafting Interpreters_, Ch. 3: The Lox Language](https://www.craftinginterpreters.com/the-lox-language.html)
+* [_The Scheme Programming Language_, Ch. 2: Getting Started](https://scheme.com/tspl4/start.html#./start:h0)
 
-This repository uses the Apache Maven build platform to compile the entire interpreter (provided in the `2/src` folder).
-The challenge must be completed in the `Lox` file located at:
+This repository uses the Apache Maven build platform to compile the entire interpreter (provided in the `3/src` folder).
+The challenge must be completed in the `Scheme` file located at:
 
-* [2/src/test/resources/main.lox](2/src/test/resources/main.lox)
+* [3/src/test/resources/main.scm](3/src/test/resources/main.scm)
+
+Finally, a _big big big thanks_ to GitHub user `Reborg` for posting code for Peter Norvig's original `jScheme` interpreter,
+allowing us to keep working with Java build files to enable our deeper exploration of languages without installing additional
+cruft. You can [check it out here](https://github.com/reborg/jscheme).
 
 ## Requirements
 
-* this challenge must be completed using the `Lox` language
-* the program must run and output the following ASCII art fish:
+* this challenge must be completed using the `Scheme` language
+* the program must run and output the following string:
 ```
-lox
-loxlox
-loxloxlox
-loxloxloxlox
-loxloxloxloxlox
-loxloxloxloxloxlox
-loxloxloxloxlox
-loxloxloxlox
-loxloxlox
-loxlox
-lox
+ABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZ
 ```
-* the program must be written in the `2/src/test/resources/main.lox` file
+* the program must be written in the `3/src/test/resources/main.scm` file
 
 ## Infrastructure
 
