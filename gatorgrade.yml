@@ -1,6 +1,6 @@
 setup: |
-  echo "🏌️    [Score] $(wc -c 2/src/test/resources/main.lox | awk '{print $1}') bytes"
+  echo "🏌️    [Score] $(wc -c 3/src/test/resources/main.scm | awk '{print $1}') bytes"
 ---
-- description: \[Round 2] Executes successfully
-  category: Round 2
-  command: mvn clean install compile test -U -f '2/pom.xml'
+- description: \[Round 3] Executes successfully
+  category: Round 3
+  command: mvn clean install compile test -U -f '3/pom.xml'
