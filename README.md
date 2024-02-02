@@ -1,7 +1,7 @@
 ![Green square on deep blue background with words "Allegheny Code Golf Association" in foreground, white](https://github.com/allegheny-college-cmpsc-201-spring-2024/golf/assets/1552764/d3ee6a91-74c9-482b-84eb-ec9a2e8dee05)
 
 [![Language: Scheme](https://img.shields.io/badge/Language-Scheme-brown.svg)](https://scheme.com/tspl4/start.html#./start:h0)
-![Par: 408 bytes](https://img.shields.io/badge/Par-218_bytes-green)
+![Par: 408 bytes](https://img.shields.io/badge/Par-408_bytes-green)
 
 # ⛳ Code Golf: Hole 3 - A Scheme Afoot
 
@@ -23,6 +23,14 @@ The challenge must be completed in the `Scheme` file located at:
 Finally, a _big big big thanks_ to GitHub user `Reborg` for posting code for Peter Norvig's original `jScheme` interpreter,
 allowing us to keep working with Java build files to enable our deeper exploration of languages without installing additional
 cruft. You can [check it out here](https://github.com/reborg/jscheme).
+
+## Tips
+
+Tips for golfing are available for both the Scheme language and as general pointers:
+
+* [Tips for golfing with Scheme](https://codegolf.stackexchange.com/questions/77129/tips-for-golfing-in-racket-scheme)
+* [General tips for golfing with any language](https://codegolf.stackexchange.com/questions/5285/tips-for-golfing-in-all-languages)
+
 
 ## Requirements
 
