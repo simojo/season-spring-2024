@@ -53,7 +53,7 @@ This season takes place over the course of 15 weeks:
 |:----------------|:--------------|:---------------|:--|:----|
 |[`1`](../../tree/round-1)                |19 January     |22 January      |[![Round 1](../../actions/workflows/round-1.yml/badge.svg?branch=round-1)](../../actions/workflows/round-1.yml) |[Round 1](../../tree/round-1) |
 |[`2`](../../tree/round-2)                |26 January     |29 January      |[![Round 2](../../actions/workflows/round-2.yml/badge.svg?branch=round-2)](../../actions/workflows/round-2.yml) |[Round 2](../../tree/round-2) |
-|[`3`](../../tree/round-3)                |2 February     |5 February      |[![Round 3](../../actions/workflows/round-3.yml/badge.svg?branch=round-3)](../../actions/workflows/round-3.yml) |[Round 2](../../tree/round-3) |
+|[`3`](../../tree/round-3)                |2 February     |5 February      |[![Round 3](../../actions/workflows/round-3.yml/badge.svg?branch=round-3)](../../actions/workflows/round-3.yml) |[Round 3](../../tree/round-3) |
 |`4`                |9 February     |12 February     |[![Round 4](../../actions/workflows/round-4.yml/badge.svg?branch=round-4)](../../actions/workflows/round-4.yml) |
 |`5`                |16 February    |19 February     |[![Round 5](../../actions/workflows/round-5.yml/badge.svg?branch=round-5)](../../actions/workflows/round-5.yml) |
 |`6`                |23 February    |26 February     |[![Round 6](../../actions/workflows/round-6.yml/badge.svg?branch=round-6)](../../actions/workflows/round-6.yml) |
